@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Mail } from "lucide-react";
 
 export default function Contact() {
-  const email = "roger.zavaleta.marcelo@gmail.com"; // Replace with your actual email
+  const email = "rzavaleta0409@gmail.com"; // email
 
   return (
     <section id="contact" className="w-full">
       <Card className="shadow-lg">
         <CardHeader className="text-center">
-          <CardTitle className="text-3xl font-bold text-primary">Get In Touch</CardTitle>
+          <CardTitle className="text-3xl font-bold text-primary">Contact Information</CardTitle>
           <CardDescription className="text-foreground/80 mt-2">
             Interested in collaborating or have a question? Feel free to reach out!
           </CardDescription>

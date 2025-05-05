@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GithubIcon } from "@/components/icons/github";
 import { LinkedinIcon } from "@/components/icons/linkedin";
-import { Code, Server, Database, Cloud, Smartphone } from "lucide-react"; // Example icons
+import { Code, Server, Database, Cloud, Smartphone, Download } from "lucide-react"; // Example icons
 
 const skills = [
   { name: "React", icon: Code },
@@ -37,14 +37,16 @@ export default function Profile() {
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <a href="www.linkedin.com/in/roger-alessandro-zavaleta-marcelo-63ab32329" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                <a href="https://pe.linkedin.com/in/roger-alessandro-zavaleta-marcelo-63ab32329" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
                   <LinkedinIcon className="h-5 w-5" />
                 </a>
               </Button>
-              {/* Optional: Add CV download button */}
-              {/* <Button variant="default">
-                <Download className="mr-2 h-4 w-4" /> Download CV
-              </Button> */}
+              <Button variant="default">
+                <Download className="mr-2 h-4 w-4" /> English Resume
+              </Button>
+              <Button variant="default">
+                <Download className="mr-2 h-4 w-4" /> Spanish Resume
+              </Button>
             </div>
           </div>
         </CardHeader>
@@ -52,7 +54,7 @@ export default function Profile() {
           <div>
             <h2 className="text-2xl font-semibold mb-3 text-primary">About Me</h2>
             <p className="text-foreground/80 leading-relaxed">
-              Aspiring Junior Developer passionate about building web applications with modern technologies like React, Next.js, and Firebase. Eager to learn, contribute to challenging projects, and grow my skills in a professional environment. Currently seeking internship or junior developer opportunities.
+            ESCRIBIR SOBRE MI AQUI
             </p>
           </div>
           <div>
