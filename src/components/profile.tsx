@@ -4,18 +4,20 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GithubIcon } from "@/components/icons/github";
 import { LinkedinIcon } from "@/components/icons/linkedin";
-import { Code, Server, Database, Cloud, Smartphone, Download } from "lucide-react"; // Example icons
+import { Code, Server, Database, Cloud, Smartphone, Download } from "lucide-react"; //Iconos
 
 const skills = [
   { name: "React", icon: Code },
   { name: "Next.js", icon: Code },
   { name: "TypeScript", icon: Code },
   { name: "Node.js", icon: Server },
-  { name: "Firebase", icon: Cloud },
-  { name: "Firestore", icon: Database },
   { name: "Tailwind CSS", icon: Code },
   { name: "React Native", icon: Smartphone },
-  // Add more skills as needed
+  { name: "HTML", icon: Code },
+  { name: "CSS", icon: Code },
+  { name: "JavaScript", icon: Code },
+  { name: "Python", icon: Code },
+  { name: "Java", icon: Code }
 ];
 
 export default function Profile() {

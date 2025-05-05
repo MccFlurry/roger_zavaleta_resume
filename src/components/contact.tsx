@@ -10,9 +10,6 @@ export default function Contact() {
       <Card className="shadow-lg">
         <CardHeader className="text-center">
           <CardTitle className="text-3xl font-bold text-primary">Contact Information</CardTitle>
-          <CardDescription className="text-foreground/80 mt-2">
-            Interested in collaborating or have a question? Feel free to reach out!
-          </CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col items-center gap-4 p-6">
           <p className="text-lg text-foreground">

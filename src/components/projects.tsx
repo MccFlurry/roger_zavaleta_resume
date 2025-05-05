@@ -83,7 +83,7 @@ export default function Projects() {
       </div>
       {/* Placeholder message if no projects are loaded */}
       {projects.length === 0 && (
-         <p className="text-center text-muted-foreground mt-8">Loading projects or no projects available yet.</p>
+         <p className="text-center text-muted-foreground mt-8">Working on it...</p>
       )}
     </section>
   );
